@@ -1,0 +1,54 @@
+# Site Info
+title:              "Uğur Can"
+description:        "That's it. Can't say anymore..."
+google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
+google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
+
+# Author Info
+author_name:        "Uğur Can" # Your name here
+author_email:       ugurcanozyurteri@gmail.com # Your email here
+author_gravatar:    57ae8469729cd33e776be4b6b771f223 # Your Gravatar md5 hash here for logo
+twitter_username:   ucanozyurteri # Your Twitter username here
+github_username:    ucanozyurteri # Your GitHub username here
+
+# Site Settings
+baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
+permalink:          /notes/:title # Post permalink
+timezone:           Europe/Istanbul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            true  # enables support for mathjax - set to false to disable
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+gems:
+  - jekyll-sitemap
+
+plugins: 
+  - jekyll-sitemap
+  - Jekyll-admin
+
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
