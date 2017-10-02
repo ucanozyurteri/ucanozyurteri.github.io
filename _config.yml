@@ -12,7 +12,7 @@ twitter_username:   ucanozyurteri # Your Twitter username here
 github_username:    ucanozyurteri # Your GitHub username here
 
 # Site Settings
-baseurl:            "https://ucanozyurteri.github.io" # Base URL must end WITHOUT a slash, default: ""
+baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
 permalink:          /notes/:title # Post permalink
 timezone:           Europe/Istanbul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            false  # enables support for mathjax - set to false to disable
