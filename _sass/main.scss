@@ -1,4 +1,5 @@
 body {
+  background-color: #e8e8e8;
   font-size: 14px;
   line-height: 20px;
   font-weight: normal;
@@ -188,8 +189,12 @@ iframe {
   width: 100%;
 }
 article {
-  max-width: 700px;
+  background-color: #fff;
+  max-width: 850px;
   margin: 0 auto;
+  border-radius: 4px;
+  padding: 15px 20px;
+  box-shadow: 0 0 0 0,0 6px 12px rgba(0,0,0,0.1);
   .title {
     line-height: 1.4em;
     text-align: center;
@@ -213,7 +218,7 @@ article {
   }
   /*--------------------------------------------SIZE:15, Height:1.9 idi, text-align yoktu---------------------*/
   p {
-    font-size: 15px;
+    font-size: 13px;
     line-height: 1.4em;
     word-wrap: break-word;
     text-align: justify;
