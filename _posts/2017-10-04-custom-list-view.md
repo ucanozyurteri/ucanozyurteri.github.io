@@ -7,8 +7,7 @@ Merhabalar, bu yazıda ListView yapısını basit bir örnekten daha karmaşık 
 
 "ListView: Kendisine verilen View yapılarını listeli bir şekilde görüntülemeye yarayan Android Widget'ıdır. İçerisindeki View satırlarında bir veya birden çok TextView ve ImageView gibi yapıları barındırabilir."
 
-Öncelikle basit bir örnek ile başlayalım, yeni bir proje açalım.
-
+Öncelikle basit bir örnek ile başlayalım. Yeni bir proje açalım ve activity_main.xml
 
 
 
