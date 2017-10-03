@@ -3,6 +3,8 @@ published: false
 ---
 ## ListView
 
+Merhabalar, bu yazıda ListView yapısını basitten karmaşığa doğru anlatmaya çalışacağım.
+
 
 
 
