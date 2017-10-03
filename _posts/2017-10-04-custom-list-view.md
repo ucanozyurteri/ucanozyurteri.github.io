@@ -3,7 +3,7 @@ published: false
 ---
 ## ListView
 
-Merhabalar, bu yazıda ListView yapısını basitten karmaşığa doğru anlatmaya çalışacağım.
+Merhabalar, bu yazıda ListView yapısını basit bir örnekten daha karmaşık olana doğru anlatmaya çalışacağım.
 
 "ListView: Listview, kendisine verilen View yapılarını listeli bir şekilde görüntülemeye yarayan yapıdır."
 
