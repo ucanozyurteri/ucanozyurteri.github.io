@@ -5,7 +5,7 @@ published: false
 
 Merhabalar, bu yazıda ListView yapısını basit bir örnekten daha karmaşık olana doğru anlatmaya çalışacağım.
 
-"ListView: Listview, kendisine verilen View yapılarını listeli bir şekilde görüntülemeye yarayan yapıdır."
+"ListView: Listview, kendisine verilen View yapılarını listeli bir şekilde görüntülemeye yarayan yapıdır. İçerisindeki satırlarda bir veya birden çok TextView veya ImageView gibi yapıları barındırabilir."
 
 
 
