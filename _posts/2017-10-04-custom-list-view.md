@@ -9,6 +9,10 @@ Merhabalar, bu yazıda ListView yapısını basit bir örnekten daha karmaşık 
 
 Öncelikle basit bir örnek ile başlayalım. Varsayılan ayarlarla yeni bir proje açalım ve activity_main.xml dosyasına gelip @id'si myList olan bir ListView ekleyelim:
 
+```java
+
+```
+
 
 
 
