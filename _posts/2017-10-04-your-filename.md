@@ -49,4 +49,10 @@ return myView;
 
 getView() metodu ile işimiz bitti. Aynı zamanda CustomAdapter sınıfımızı da halletmiz olduk.
 
-9. Son işlemimiz ise az önce bitirdiğimiz CustomAdapter'den bir nesne oluşturup myList isimli listemize setAdapter() metodu ile uygulamak.
+9. Son işlemimiz ise onCreate() metodu içerisinde, az önce yazdığımız CustomAdapter'den bir nesne oluşturup myList isimli listemize setAdapter() metodu ile uygulamak.
+
+```java
+CustomAdapter customAdapter = new CustomAdapter(this);
+myList.setAdapter(customAdapter);	
+```
+
